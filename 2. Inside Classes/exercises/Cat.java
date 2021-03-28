@@ -38,7 +38,15 @@ public class Cat {
 		// 2. Get the Cat to print it's name
 
 		// 3. Kill the Cat!
-
+		
+		Cat cat = new Cat("Ruby");
+		
+		cat.meow();
+		
+		cat.printName();
+		
+		while(cat.lives != 0)
+		cat.kill();
 	}
 }
 

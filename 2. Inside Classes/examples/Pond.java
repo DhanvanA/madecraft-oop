@@ -7,7 +7,7 @@ public class Pond {
 
 		Duck mobyDuck = new Duck("Moby", 90 / 3, "celery");
 		Duck wolfgangDuck = new Duck("Wolfgang", 60 / 3, "cheeseburgers");
-
+		mobyDuck.quack();
 		mobyDuck.waddle();
 		mobyDuck.waddle();
 		mobyDuck.waddle();
@@ -21,7 +21,7 @@ public class Pond {
 		System.out.println(mobyDuck);
 		
 		// Exercise: Make the Duck quack
-		
+		wolfgangDuck.quack();
 	}
 
 }
